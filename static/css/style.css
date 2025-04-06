@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  header {
+    background: linear-gradient(to right, #1d3557, #457b9d);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    animation: slideUp 0.5s ease-out;
+  }
+  
+  @keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .chat-box {
+    height: 400px;
+    overflow-y: auto;
+    border: none;
+    padding: 15px;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, #f1faff, #ffffff);
+    margin-bottom: 25px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    padding: 12px 16px;
+    border-radius: 16px;
+    white-space: pre-wrap;
+    animation: fadeIn 0.3s ease-in-out;
+    line-height: 1.5;
+  }
+  
+  .user {
+    background: linear-gradient(to left, #dff0f8, #ccefff);
+    text-align: right;
+    margin-left: auto;
+    max-width: 80%;
+  }
+  
+  .roadie {
+    background: #f9f9f9;
+    text-align: left;
+    margin-right: auto;
+    max-width: 80%;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  input {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  button {
+    background: linear-gradient(to right, #457b9d, #1d3557);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #1d3557, #000);
+    transform: scale(1.03);
+  }
+  
+  .suggestions {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 10;
+    width: calc(100% - 20px);
+    display: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestion-item {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f8ff;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 16px;
+  }
+  
+  .trip-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .trip-form div {
+    position: relative;
+  }
+  
+  .speak-btn {
+    margin-top: 5px;
+    padding: 6px 12px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+  }
+  
+  .speak-btn:hover {
+    background-color: #cccccc;
+  }
+  
+  @media (max-width: 600px) {
+    .trip-form {
+      grid-template-columns: 1fr;
+    }
+  }
+  

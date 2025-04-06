@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/static/manifest.json">
+  <meta name="theme-color" content="#4caf50">
+  <meta name="msapplication-TileColor" content="#4caf50">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+
+  <title>🚗 Meet Roadie - Your Advanced AI Trip Planner</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>🚗 Meet Roadie</h1>
+    <p>Your Advanced AI Trip Planner!</p>
+  </header>
+
+  <div class="container">
+    <div class="chat-box" id="chatbox">
+      <div class="message roadie">
+        👋 Hi! I'm <strong>Roadie</strong>. Plan your trip with me—ask about routes, weather, stops, budgets, lodging, or food!
+      </div>
+    </div>
+
+    <div class="input-group">
+      <input id="messageInput" type="text" placeholder="Ask Roadie anything..." style="transition: box-shadow 0.3s ease;" onfocus="this.style.boxShadow='0 0 10px rgba(0,123,255,0.3)'" onblur="this.style.boxShadow='none'">
+
+      <div>
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="startListening()">🎤 Speak</button>
+      </div>
+    </div>
+
+    <div class="trip-form" id="tripForm">
+      <div>
+        <input id="start" placeholder="Start location" oninput="fetchSuggestions('start')">
+        <div id="start-suggestions" class="suggestions"></div>
+      </div>
+      <div>
+        <input id="end" placeholder="Destination" oninput="fetchSuggestions('end')">
+        <div id="end-suggestions" class="suggestions"></div>
+      </div>
+      <input id="fuelBudget" placeholder="Fuel budget (e.g., $50)">
+      <input id="lodgingBudget" placeholder="Lodging budget (e.g., $200)">
+      <input id="foodBudget" placeholder="Food budget (e.g., $80)">
+      <input id="mpg" placeholder="Car mileage (MPG, e.g., 25)">
+      <input id="fuelPrice" placeholder="Fuel price ($/gallon, e.g., 3.5)">
+      <input id="departureTime" placeholder="Departure (e.g., now, tomorrow 2pm)">
+      <input id="preferences" placeholder="Preferences (e.g., scenic, food, cheap)">
+      <button onclick="planTrip()">🚀 Plan My Trip</button>
+    </div>
+
+    <div id="map"></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
