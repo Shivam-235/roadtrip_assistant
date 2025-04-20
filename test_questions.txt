@@ -1,0 +1,62 @@
+// Basic Route Planning Questions
+1. Plan a road trip from San Francisco to Los Angeles
+2. What's the best route from Chicago to St. Louis?
+3. How far is it from New York to Boston?
+4. How long will it take to drive from Austin to Dallas?
+5. Plan a weekend trip from Philadelphia to Washington DC
+
+// Weather-Related Questions
+6. What's the weather like in Miami?
+7. Is it raining in Seattle right now?
+8. Weather forecast for Denver
+9. How's the weather in Chicago today?
+10. Will I need a jacket in Portland this weekend?
+
+// Map Display Tests
+11. Show me Chicago on a map
+12. Where is the Grand Canyon?
+13. Display a map of Las Vegas
+14. Locate Mount Rushmore
+15. Show me a map of Yellowstone National Park
+
+// Budget and Cost Questions
+16. How much would gas cost for a trip from Atlanta to Nashville?
+17. What's the typical budget for a road trip from Denver to Salt Lake City?
+18. How much should I budget for a week-long trip to Florida?
+19. What are gas prices like in California?
+20. Estimate fuel costs for a trip from Phoenix to Tucson in a car that gets 30 MPG
+
+// Attractions and Stops
+21. What are the best stops between New Orleans and Houston?
+22. Recommend attractions along the way from Seattle to Portland
+23. Must-see places on a road trip from San Diego to San Francisco
+24. Where should I stop for food between Boston and New York?
+25. What are the scenic viewpoints on the Pacific Coast Highway?
+
+// Combined Topic Tests
+26. Plan a trip from Denver to Aspen with stops for hiking and a budget of $500
+27. What's the weather in Miami and what beaches should I visit?
+28. Show me the route from Chicago to Milwaukee and tell me the driving time
+29. What restaurants are along the way from Nashville to Memphis?
+30. How's the weather in New York and what museums should I visit?
+
+// Off-Topic Questions (To Test Restrictions)
+31. Who is the President of the United States?
+32. Can you write me a poem?
+33. What's the capital of France?
+34. Tell me the plot of Star Wars
+35. How do I make chocolate chip cookies?
+
+// Complex Road Trip Queries
+36. Plan a scenic road trip from Seattle to San Francisco with stops at national parks
+37. What's the best route from New York to Miami with budget-friendly hotels?
+38. How's the weather along the route from Chicago to Denver in July?
+39. Plan a family-friendly road trip from Orlando to Miami with stops for kids
+40. What's the fastest route from Boston to Chicago and how much would gas cost?
+
+// Voice Recognition Tests (Speak These)
+41. Where should I eat in Chicago?
+42. Show me hotels in San Francisco
+43. What's the best time to visit the Grand Canyon?
+44. Find me gas stations between Dallas and Houston
+45. Plan a trip to Yellowstone National Park

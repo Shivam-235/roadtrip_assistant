@@ -1,0 +1,42 @@
+// Basic Route Planning
+Plan a road trip from New York to Boston
+What's the best route from Chicago to Milwaukee?
+How far is it from Los Angeles to San Francisco?
+I want to drive from Seattle to Portland
+
+// Weather Queries
+What's the weather in Miami?
+Is it raining in Chicago right now?
+Weather forecast for Denver
+Temperature in Las Vegas today
+
+// Budget Planning
+How much would it cost to drive from Dallas to Houston?
+Estimate fuel costs for a trip from Phoenix to Tucson
+Budget for a road trip from Atlanta to Nashville with a family of 4
+What's the cheapest time to visit New Orleans?
+
+// Attractions and Stops
+Best stops between Austin and Dallas
+Must-see attractions on a drive from San Diego to Las Vegas
+Where should I stop on a road trip from St. Louis to Kansas City?
+Scenic viewpoints between Denver and Salt Lake City
+
+// Specific Location Queries
+Show me Chicago on a map
+Where is the Grand Canyon?
+Locate Mount Rushmore
+Find restaurants near Yellowstone National Park
+
+// Combined Queries
+Plan a weekend trip from Philadelphia to Washington DC with a $300 budget
+Best scenic route from Denver to Aspen with stops for hiking
+Weather and road conditions for a trip from Boston to New York tomorrow
+Family-friendly stops on a road trip from Orlando to Miami
+
+// Off-Topic Queries (to test restrictions)
+Who is the president of the United States?
+Write me a poem about cats
+What's the capital of France?
+Can you code a website for me?
+Tell me a joke
